@@ -44,8 +44,8 @@ app.use(logger("dev"));
 
 // Connect to the Mongo DB
 mongoose.connect("mongodb://heroku_d6xv6kqf:f03sdv6f7g0srfp5ct5fcnhdq@ds151382.mlab.com:51382/heroku_d6xv6kqf");
-mongoose.Promise = Promise;
-mongoose.connect(MONGODB_URI);
+//mongoose.Promise = Promise;
+//mongoose.connect(MONGODB_URI);
 
 
 
