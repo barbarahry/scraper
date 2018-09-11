@@ -43,10 +43,15 @@ app.use(logger("dev"));
 // app.use(express.static("public"));
 
 // Connect to the Mongo DB
-mongoose.connect("mongodb://<dbuser>:<dbpassword>@ds151382.mlab.com:51382/heroku_d6xv6kqf");
+mongoose.connect("mongodb://heroku_d6xv6kqf:f03sdv6f7g0srfp5ct5fcnhdq@ds151382.mlab.com:51382/heroku_d6xv6kqf");
 mongoose.Promise = Promise;
 mongoose.connect(MONGODB_URI);
+
+
+
 // Routes
+
+
 // A GET route for scraping the NYT website
 app.get("/", function(req, res) {
   // Grab every document in the Articles collection
