@@ -43,7 +43,7 @@ app.use(logger("dev"));
 // app.use(express.static("public"));
 
 // Connect to the Mongo DB
-mongoose.connect("mongodb://localhost/scrapedData");
+mongoose.connect("mongodb://<dbuser>:<dbpassword>@ds151382.mlab.com:51382/heroku_d6xv6kqf");
 
 // Routes
 // A GET route for scraping the NYT website
