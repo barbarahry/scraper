@@ -12,7 +12,7 @@ var cheerio = require("cheerio");
 // Require all models
 var db = require("./models");
 
-var PORT = 4000;
+var PORT = 3000;
 
 // Initialize Express
 var app = express();
@@ -44,7 +44,8 @@ app.use(logger("dev"));
 
 // Connect to the Mongo DB
 mongoose.connect("mongodb://<dbuser>:<dbpassword>@ds151382.mlab.com:51382/heroku_d6xv6kqf");
-
+mongoose.Promise = Promise;
+mongoose.connect(MONGODB_URI);
 // Routes
 // A GET route for scraping the NYT website
 app.get("/", function(req, res) {
