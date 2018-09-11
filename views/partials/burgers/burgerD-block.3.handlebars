@@ -1,0 +1,97 @@
+<tr><div class="profile2"></div>
+        {{#if gameOver}}
+        <p>!! GAME OVER  !! </p> 
+    {{else}}
+        <p>Last Move({{gameMove}}):  <img src="assets/images/{{lastPlayer}}.svg" width="50px" height="50px" alt="" > ({{lastPlayer}})</p>
+    {{/if}}
+    <br>
+     {{burger_name}}
+    </div>
+</tr>
+<tr>
+        <td id="cel1" class="cell" data-cell="">
+                <div class="profile2">
+                        {{#if cel1}}
+                                <img src="assets/images/{{cel1}}.svg" alt="" height="80px" width="80px" >
+                        {{else}}
+                                <a href="#" class="change-devoured" data-id="{{id}}" data-gamemove={{gameMove}} data-cel="cel1" data-player="{{lastPlayer}}"><img src="assets/images/avatar3.svg" alt=""  ></a>
+                        {{/if}}
+                </div>
+        </td>
+        <td id="cel2" class="cell vert" data-cell="">
+                <div class="profile2">
+                        {{#if cel2}}
+                                <img src="assets/images/{{cel2}}.svg" alt=""  height="80px" width="80px">
+                        {{else}}
+                                <a href="#" class="change-devoured" data-id="{{id}}" data-gamemove={{gameMove}} data-cel="cel2" data-player="{{lastPlayer}}"><img src="assets/images/avatar3.svg" alt=""  ></a>
+                        {{/if}}
+                </div>
+        </td>
+        <td id="cel3" class="cell" data-cell="">
+                <div class="profile2">
+                        {{#if cel3}}
+                                <img src="assets/images/{{cel3}}.svg" alt=""  height="80px" width="80px">
+                        {{else}}
+                                <a href="#" class="change-devoured" data-id="{{id}}" data-gamemove={{gameMove}} data-cel="cel3" data-player="{{lastPlayer}}"><img src="assets/images/avatar3.svg" alt=""  ></a>
+                        {{/if}}
+                </div>
+        </td>
+</tr>
+<tr>
+         <td id="cel4" class="cell hori" data-cell="">
+                <div class="profile2">
+                        {{#if cel4}}
+                                <img src="assets/images/{{cel4}}.svg" alt=""  height="80px" width="80px">
+                        {{else}}
+                                <a href="#" class="change-devoured" data-id="{{id}}" data-gamemove={{gameMove}} data-cel="cel4" data-player="{{lastPlayer}}"><img src="assets/images/avatar3.svg" alt=""  ></a>
+                        {{/if}}
+                </div>
+        </td>
+        <td id="cel5" class="cell vert hori" data-cell="">
+                <div class="profile2">
+                        {{#if cel5}}
+                                <img src="assets/images/{{cel5}}.svg" alt=""  height="80px" width="80px">
+                        {{else}}
+                                <a href="#" class="change-devoured" data-id="{{id}}" data-gamemove={{gameMove}} data-cel="cel5" data-player="{{lastPlayer}}"><img src="assets/images/avatar3.svg" alt=""  ></a>
+                        {{/if}}
+                </div>
+        </td>
+         <td id="cel6" class="cell hori" data-cell="">
+                <div class="profile2">
+                        {{#if cel6}}
+                                <img src="assets/images/{{cel6}}.svg" alt=""  height="80px" width="80px">
+                        {{else}}
+                                <a href="#" class="change-devoured" data-id="{{id}}" data-gamemove={{gameMove}} data-cel="cel6" data-player="{{lastPlayer}}"><img src="assets/images/avatar3.svg" alt=""  ></a>
+                        {{/if}}
+                </div>
+        </td>
+</tr>
+<tr>
+        <td id="cel7" class="cell" data-cell="">
+                <div class="profile2">
+                        {{#if cel7}}
+                                <img src="assets/images/{{cel7}}.svg" alt=""  height="80px" width="80px">
+                        {{else}}
+                                <a href="#" class="change-devoured" data-id="{{id}}" data-gamemove={{gameMove}} data-cel="cel7" data-player="{{lastPlayer}}"><img src="assets/images/avatar3.svg" alt=""  ></a>
+                        {{/if}}
+                </div>
+        </td>
+        <td id="cel8" class="cell vert" data-cell="">
+                <div class="profile2">
+                        {{#if cel8}}
+                                <img src="assets/images/{{cel8}}.svg" alt=""  height="80px" width="80px">
+                        {{else}}
+                                <a href="#" class="change-devoured" data-id="{{id}}" data-gamemove={{gameMove}} data-cel="cel8" data-player="{{lastPlayer}}"><img src="assets/images/avatar3.svg" alt=""  ></a>
+                        {{/if}}
+                </div>
+        </td>
+        <td id="cel9" class="cell" data-cell="">
+                <div class="profile2">
+                        {{#if cel9}}
+                                <img src="assets/images/{{cel9}}.svg" alt=""  height="80px" width="80px">
+                        {{else}}
+                                <a href="#" class="change-devoured" data-id="{{id}}" data-gamemove={{gameMove}} data-cel="cel9" data-player="{{lastPlayer}}"><img src="assets/images/avatar3.svg" alt=""  ></a>
+                        {{/if}}
+                </div>
+        </td>
+</tr>
